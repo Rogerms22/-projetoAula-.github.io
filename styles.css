@@ -1,0 +1,113 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.login-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-container input, .login-container button {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.menu-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-container ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu-container ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.menu-container ul ul {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.menu-container ul li:hover ul {
+    display: block;
+}
+
+.menu-container ul ul li {
+    display: block;
+}
+
+*/
+.form-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container input, .form-container textarea, .form-container button {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.form-container button[type="reset"] {
+    background-color: #dc3545;
+}
